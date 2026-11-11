@@ -1,0 +1,8 @@
+<resources>
+    <string name="play">Play</string>
+    <string name="record">Record</string>
+    <string name="decline">No</string>
+    <string name="accept">Yes</string>
+    <string name="audio_recorder">Audio Recorder</string>
+    <string name="recording_not_found">Recording not found</string>
+</resources>
