@@ -4,6 +4,9 @@ This is an example to demonstrate **MVVM Architecture in Kotlin with Retrofit** 
 
 This example will demonstrate the working of MVVM using Live data and Retrofit in Kotlin. Just follow the steps and you will be able to try out the same in your Android Studio as well.
 
+## Download
+- To compile the debug build APK locally, run: `./gradlew assembleDebug` (or explore available builds in the root [Releases Catalog](../releases/README.md)).
+
 So Let's Get Started:
 
 1. What is MVVM, LiveData, ViewModel, Model, Repository?

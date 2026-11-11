@@ -2,10 +2,10 @@
 This project is a demonstration of **MusicPlayer** in Kotlin, implementing the MVVM architecture.
 
 ## Download
-- For debug build, please go to [Github Releases page](https://github.com/manojvermamv/MusicPlayer/releases)
+- Download release build APK: [music-player-v1.0.apk](../releases/music-player-v1.0.apk) (see [Releases Catalog](../releases/README.md))
 
 ## Screenshots
 <div style="display:flex;">
-  <img alt="App image" src="graphics/song_list.png" width="35%" > 
-  <img alt="App image" src="graphics/song_detail.png" width="35%">
+  <img alt="Song List" src="./graphics/song_list.png" width="35%" > 
+  <img alt="Song Detail" src="./graphics/song_detail.png" width="35%">
 </div>

@@ -2,11 +2,11 @@
 This project is a demonstration of **Android Interview Demo 03** in Kotlin, implementing the MVVM architecture.
 
 ## Download
-- For debug build, please go to [Github Releases page](https://github.com/manojvermamv/Android-Interview-Demo-03/releases)
+- Pre-built release build is not published yet. You can compile the debug build locally using `./gradlew assembleDebug` (or explore available builds in the root [Releases Catalog](../releases/README.md)).
 
 ## Screenshots
 <div align="center">
-    <img alt="none" src="/screenshots/screen1.png" width="200"/>
+    <img alt="Screenshot" src="./screenshots/screen1.png" width="200"/>
 </div>
 
 ## **Android Interview Demo Overview**

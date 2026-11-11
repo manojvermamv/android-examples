@@ -12,11 +12,11 @@ Usage:
 
 
 ## Download
-- For debug build, please go to [Github Releases page](https://github.com/manojvermamv/Android-Interview-Demo-02/releases)
+- Download debug build APK: [android-interview-demo-02-debug.apk](../releases/android-interview-demo-02-debug.apk) (see [Releases Catalog](../releases/README.md))
 
 ## Screenshots
 <div align="center">
-    <img alt="none" src="/screenshots/screen1.png" width="200"/>
+    <img alt="Screenshot" src="./screenshots/screen1.png" width="200"/>
 </div>
 
 ## **Android Interview Demo Overview**
