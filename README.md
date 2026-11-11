@@ -2,6 +2,9 @@
 
 A consolidated collection of native Android sample applications and interview demonstrations built with Kotlin, modern Android Architecture Components (MVVM, ViewModel, LiveData, Coroutines), Jetpack libraries, and Retrofit.
 
+> [!NOTE]
+> All projects in this repository are built by myself with manual coding — not AI-generated.
+
 All source code has been cleanly imported as independent subdirectories with their original files, resources, and markdown documentation preserved (without git submodules).
 
 ---
