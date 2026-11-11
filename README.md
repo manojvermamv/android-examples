@@ -16,6 +16,7 @@ All source code has been cleanly imported as independent subdirectories with the
 | 4 | [`AndroidExample`](./AndroidExample) | **Android Interview Demo (Search & Detail)** | Kotlin, MVVM, Item Search & Detail Views, Clean Separation | [README.md](./AndroidExample/README.md) | Source build |
 | 5 | [`MusicPlayer`](./MusicPlayer) | **Native Music Player App** | Kotlin, MVVM, MediaPlayer, Background Audio Service | [README.md](./MusicPlayer/README.md) | [Download v1.0 APK](./releases/music-player-v1.0.apk) |
 | 6 | [`MVVM-Retrofit-Kotlin-Example`](./MVVM-Retrofit-Kotlin-Example) | **MVVM ft. Retrofit & LiveData** | Kotlin, MVVM, Retrofit REST API, LiveData, Repository Pattern | [README.md](./MVVM-Retrofit-Kotlin-Example/README.md) | Source build |
+| 7 | [`DevTools`](./DevTools) | **Developer Utilities & Kotlin Playground** | Kotlin, MVVM, Koin DI, WebView JS Injection, Foreground Service | [README.md](./DevTools/README.md) | [Download Debug APK](./releases/devtools-debug.apk) |
 
 ---
 
@@ -29,6 +30,7 @@ For full release details, checksums, and package names, see [`releases/README.md
 - 📥 **Android Interview Demo 01**: [`releases/android-interview-demo-01-debug.apk`](./releases/android-interview-demo-01-debug.apk) (v1.0, ~6.17 MB)
 - 📥 **Android Interview Demo 02**: [`releases/android-interview-demo-02-debug.apk`](./releases/android-interview-demo-02-debug.apk) (v1.0, ~5.58 MB)
 - 📥 **Music Player**: [`releases/music-player-v1.0.apk`](./releases/music-player-v1.0.apk) (v1.0, ~11.52 MB)
+- 📥 **DevTools**: [`releases/devtools-debug.apk`](./releases/devtools-debug.apk) (v1.0, ~8.11 MB)
 
 ---
 
@@ -57,6 +59,10 @@ For full release details, checksums, and package names, see [`releases/README.md
 ### 6. [MVVM-Retrofit-Kotlin-Example](./MVVM-Retrofit-Kotlin-Example)
 - **Description:** A comprehensive architectural tutorial project demonstrating step-by-step implementation of MVVM with Retrofit 2, Kotlin Coroutines, LiveData, ViewModel, and Repository Pattern in Android.
 - **Source Directory:** [`MVVM-Retrofit-Kotlin-Example`](./MVVM-Retrofit-Kotlin-Example)
+
+### 7. [DevTools](./DevTools)
+- **Description:** A native Android developer utility application providing an interactive Kotlin Playground with mobile-optimized WebView, in-app DOM element screenshot capture, contact inspector, and foreground background service.
+- **Source Directory:** [`DevTools`](./DevTools)
 
 ---
 
