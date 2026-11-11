@@ -12,9 +12,10 @@ All source code has been cleanly imported as independent subdirectories with the
 | :-: | :--- | :--- | :--- | :--- | :---: |
 | 1 | [`Android-Interview-Demo-01`](./Android-Interview-Demo-01) | **Item List & Detail Demo** | Kotlin, MVVM, LiveData, ViewModel, Dummy API Integration | [README.md](./Android-Interview-Demo-01/README.md) | [Download v1.0 APK](./releases/android-interview-demo-01-debug.apk) |
 | 2 | [`Android-Interview-Demo-02`](./Android-Interview-Demo-02) | **Audio Recorder & Player** | Kotlin, MVVM, MediaRecorder, Audio Playback Controls | [README.md](./Android-Interview-Demo-02/README.md) | [Download v1.0 APK](./releases/android-interview-demo-02-debug.apk) |
-| 3 | [`AndroidExample`](./AndroidExample) | **Android Interview Demo 03** | Kotlin, MVVM, Item Search & Detail Views, Clean Separation | [README.md](./AndroidExample/README.md) | Source build |
-| 4 | [`MusicPlayer`](./MusicPlayer) | **Native Music Player App** | Kotlin, MVVM, MediaPlayer, Background Audio Service | [README.md](./MusicPlayer/README.md) | [Download v1.0 APK](./releases/music-player-v1.0.apk) |
-| 5 | [`MVVM-Retrofit-Kotlin-Example`](./MVVM-Retrofit-Kotlin-Example) | **MVVM ft. Retrofit & LiveData** | Kotlin, MVVM, Retrofit REST API, LiveData, Repository Pattern | [README.md](./MVVM-Retrofit-Kotlin-Example/README.md) | Source build |
+| 3 | [`Android-Interview-Demo-03`](./Android-Interview-Demo-03) | **UFM Sports & Tournaments** | Kotlin, MVVM, Koin DI, Paged Retrofit, ConcatAdapter, CardSlider | [README.md](./Android-Interview-Demo-03/README.md) | Source build |
+| 4 | [`AndroidExample`](./AndroidExample) | **Android Interview Demo (Search & Detail)** | Kotlin, MVVM, Item Search & Detail Views, Clean Separation | [README.md](./AndroidExample/README.md) | Source build |
+| 5 | [`MusicPlayer`](./MusicPlayer) | **Native Music Player App** | Kotlin, MVVM, MediaPlayer, Background Audio Service | [README.md](./MusicPlayer/README.md) | [Download v1.0 APK](./releases/music-player-v1.0.apk) |
+| 6 | [`MVVM-Retrofit-Kotlin-Example`](./MVVM-Retrofit-Kotlin-Example) | **MVVM ft. Retrofit & LiveData** | Kotlin, MVVM, Retrofit REST API, LiveData, Repository Pattern | [README.md](./MVVM-Retrofit-Kotlin-Example/README.md) | Source build |
 
 ---
 
@@ -41,15 +42,19 @@ For full release details, checksums, and package names, see [`releases/README.md
 - **Description:** A dedicated audio recording application providing intuitive audio capture, recording review, audio playback controls, and recording file management (rename, delete, play).
 - **Source Directory:** [`Android-Interview-Demo-02`](./Android-Interview-Demo-02)
 
-### 3. [AndroidExample](./AndroidExample)
+### 3. [Android-Interview-Demo-03](./Android-Interview-Demo-03)
+- **Description:** Advanced sports and tournament application ("UFM Sports") demonstrating enterprise Android practices: Koin Dependency Injection, paged Retrofit APIs, ConcatAdapter with skeleton loading states, CardSlider carousels, and ThreeTenABP time management.
+- **Source Directory:** [`Android-Interview-Demo-03`](./Android-Interview-Demo-03)
+
+### 4. [AndroidExample](./AndroidExample)
 - **Description:** An interview demo implementation focusing on item listing, filtering, search, and detail transitions with clean MVVM architecture in Kotlin.
 - **Source Directory:** [`AndroidExample`](./AndroidExample)
 
-### 4. [MusicPlayer](./MusicPlayer)
+### 5. [MusicPlayer](./MusicPlayer)
 - **Description:** A native Android audio player with support for audio playlists, playback controls (play, pause, shuffle, stop), song metadata rendering, and background audio service.
 - **Source Directory:** [`MusicPlayer`](./MusicPlayer)
 
-### 5. [MVVM-Retrofit-Kotlin-Example](./MVVM-Retrofit-Kotlin-Example)
+### 6. [MVVM-Retrofit-Kotlin-Example](./MVVM-Retrofit-Kotlin-Example)
 - **Description:** A comprehensive architectural tutorial project demonstrating step-by-step implementation of MVVM with Retrofit 2, Kotlin Coroutines, LiveData, ViewModel, and Repository Pattern in Android.
 - **Source Directory:** [`MVVM-Retrofit-Kotlin-Example`](./MVVM-Retrofit-Kotlin-Example)
 

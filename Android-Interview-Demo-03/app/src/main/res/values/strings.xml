@@ -1,0 +1,27 @@
+<resources>
+    <string name="home">Home</string>
+    <string name="my_matches">My Matches</string>
+    <string name="winners">Winners</string>
+    <string name="my_space">My Space</string>
+
+    <string name="whoops">Whoops!</string>
+    <string name="no_internet_msg">No Internet connection found.\nCheck your connection or try again.</string>
+    <string name="ok">OK</string>
+
+    <string name="search">Search</string>
+    <string name="refresh">Refresh</string>
+    <string name="hi_developer">Hi, Samridhi</string>
+    <string name="lineups_out">Lineups Out</string>
+    <string name="featured_tournaments">Featured Tournaments</string>
+    <string name="upcoming_matches">Upcoming Matches</string>
+    <string name="not_started">Not started</string>
+    <string name="live">Live</string>
+    <string name="completed">Completed</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="vs">VS</string>
+    <string name="joining">Joinings</string>
+    <string name="contests">Contests</string>
+    <string name="top_running_rank">Top Running Rank :</string>
+    <string name="count_placeholder">(%d)</string>
+    <string name="ruppe_symbol">₹</string>
+</resources>

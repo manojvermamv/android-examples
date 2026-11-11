@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FFFFFF</color>
+    <color name="background">#edf2f7</color>
+
+    <color name="accent_start">#FF4B63</color>
+    <color name="accent_end">#A454DD</color>
+    <color name="accent_color">#8184FF</color>
+    <color name="accent_color_secondary">#2492ff</color>
+
+    <color name="element_start">#F9E369</color>
+    <color name="element_end">#FCCC6E</color>
+    <color name="secondary_start">#69B8ED</color>
+    <color name="secondary_end">#6560E0</color>
+
+    <color name="accent_start_26">#42FF4B63</color>
+    <color name="accent_end_26">#42A454DD</color>
+    <color name="accent_start_16">#29FF4B63</color>
+    <color name="accent_end_16">#29A454DD</color>
+
+    <color name="secondary_start_26">#4269B8ED</color>
+    <color name="secondary_end_26">#426560E0</color>
+    <color name="secondary_start_20">#3369B8ED</color>
+    <color name="secondary_end_20">#336560E0</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark_grey">@color/grey_600</color>
+    <color name="light_grey">@color/grey_350</color>
+    <color name="tab_item_tint_default">@color/grey_500</color>
+    <color name="status_live">#FF4B63</color>
+    <color name="status_upcoming">#FEC007</color>
+    <color name="status_completed">#36C54A</color>
+
+    <color name="grey_50">#FAFAFA</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_150">#EFEFEF</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_250">#DADADA</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_350">#CCCCCC</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="grey_450">#B1B1B1</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_550">#8B8B8B</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_650">#686868</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_750">#505050</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_850">#383838</color>
+    <color name="grey_900">#212121</color>
+    <color name="grey_950">#1b1b1b</color>
+    <color name="grey_1000">#1a1a1a</color>
+
+</resources>

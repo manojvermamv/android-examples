@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GradientStrokeView">
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="gradientColorStart" format="color" />
+        <attr name="gradientColorEnd" format="color" />
+    </declare-styleable>
+</resources>

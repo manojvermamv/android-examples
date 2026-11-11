@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        app:cardCornerRadius="@dimen/radius_10"
+        app:cardElevation="@dimen/_3sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_6sdp">
+
+                <TextView
+                    android:id="@+id/tvMatchFormat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:maxLines="1"
+                    android:textColor="@color/accent_color"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="bold"
+                    tools:text="T20" />
+
+                <View
+                    android:id="@+id/sep01"
+                    android:layout_width="0.5dp"
+                    android:layout_height="0dp"
+                    android:layout_alignTop="@+id/tvMatchFormat"
+                    android:layout_alignBottom="@+id/tvMatchFormat"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_2sdp"
+                    android:layout_toEndOf="@+id/tvMatchFormat"
+                    android:background="@color/light_grey" />
+
+                <TextView
+                    android:id="@+id/tvTournamentName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@+id/layLineupsOut"
+                    android:layout_toEndOf="@+id/sep01"
+                    android:maxLines="1"
+                    android:textSize="@dimen/_11ssp"
+                    android:textStyle="bold"
+                    tools:text="World Cup" />
+
+                <LinearLayout
+                    android:id="@+id/layLineupsOut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_18sdp"
+                        android:layout_height="@dimen/_18sdp"
+                        android:padding="@dimen/_1sdp"
+                        android:src="@drawable/ic_lineups_out" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_2sdp"
+                        android:text="@string/lineups_out"
+                        android:textAllCaps="true"
+                        android:textColor="@color/accent_color_secondary"
+                        android:textSize="@dimen/_9ssp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/sep02"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@+id/tvMatchFormat"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:background="@color/light_grey" />
+
+            </RelativeLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_2sdp"
+                android:paddingTop="@dimen/_2sdp"
+                android:paddingBottom="@dimen/_2sdp">
+
+                <RelativeLayout
+                    android:id="@+id/layTeamA"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_default="percent"
+                    app:layout_constraintWidth_percent=".34">
+
+                    <View
+                        android:id="@+id/bgTeamALogo"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_alignTop="@+id/ivTeamALogo"
+                        android:layout_alignBottom="@+id/ivTeamALogo"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:layout_marginBottom="@dimen/_3sdp"
+                        android:layout_toStartOf="@+id/ivTeamALogo"
+                        android:background="@drawable/bg_team_a" />
+
+                    <ImageView
+                        android:id="@+id/ivTeamALogo"
+                        android:layout_width="@dimen/_39sdp"
+                        android:layout_height="@dimen/_36sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@+id/tvTeamACode"
+                        android:translationX="@dimen/_minus18sdp"
+                        tools:src="@drawable/img_not_available" />
+
+                    <TextView
+                        android:id="@+id/tvTeamACode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_14ssp"
+                        android:textStyle="bold"
+                        tools:text="DC" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tvTimer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:background="@drawable/bg_red_small_16"
+                    android:maxLines="1"
+                    android:padding="@dimen/_3sdp"
+                    android:textColor="@color/accent_start"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/layTeamB"
+                    app:layout_constraintStart_toEndOf="@+id/layTeamA"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="20m:15s" />
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvTimer"
+                    android:maxLines="1"
+                    android:padding="@dimen/_2sdp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_8ssp"
+                    app:layout_constraintEnd_toStartOf="@+id/layTeamB"
+                    app:layout_constraintStart_toEndOf="@+id/layTeamA"
+                    app:layout_constraintTop_toBottomOf="@+id/tvTimer"
+                    tools:text="Today, 7.30PM" />
+
+                <RelativeLayout
+                    android:id="@+id/layTeamB"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_default="percent"
+                    app:layout_constraintWidth_percent=".34">
+
+                    <View
+                        android:id="@+id/bgTeamBLogo"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_alignTop="@+id/ivTeamBLogo"
+                        android:layout_alignBottom="@+id/ivTeamBLogo"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:layout_marginBottom="@dimen/_3sdp"
+                        android:layout_toEndOf="@+id/ivTeamBLogo"
+                        android:background="@drawable/bg_team_b" />
+
+                    <ImageView
+                        android:id="@+id/ivTeamBLogo"
+                        android:layout_width="@dimen/_39sdp"
+                        android:layout_height="@dimen/_36sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/tvTeamBCode"
+                        android:translationX="@dimen/_18sdp"
+                        tools:src="@drawable/img_not_available" />
+
+                    <TextView
+                        android:id="@+id/tvTeamBCode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_14ssp"
+                        android:textStyle="bold"
+                        tools:text="PK" />
+
+                </RelativeLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <RelativeLayout
+                android:id="@+id/layOffer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_gradient_secondary_20"
+                android:padding="@dimen/_2sdp">
+
+                <ImageView
+                    android:id="@+id/ivOfferIcon"
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_18sdp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:scaleType="fitCenter"
+                    tools:src="@drawable/img_not_available" />
+
+                <TextView
+                    android:id="@+id/tvOfferTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_toEndOf="@+id/ivOfferIcon"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    tools:text="No Loss Offer:" />
+
+                <TextView
+                    android:id="@+id/tvOfferSubText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:layout_toEndOf="@+id/tvOfferTitle"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10ssp"
+                    tools:text="100% Refund if you loose" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

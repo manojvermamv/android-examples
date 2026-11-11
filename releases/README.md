@@ -44,9 +44,18 @@ This folder contains pre-built APK releases downloaded from the respective GitHu
 
 ## ℹ️ Repositories Without GitHub Releases
 
-The following repositories currently do not have pre-built APK releases published on GitHub. However, their clean source codes are included in this repository and can be compiled locally:
+The following projects currently do not have pre-built APK releases published on GitHub. However, their clean source codes are included in this repository and can be compiled locally:
 
-1. **AndroidExample (`Android-Interview-Demo-03`)**:
+1. **Android-Interview-Demo-03 (`UFM Sports`)**:
+   - Source code: [`../Android-Interview-Demo-03`](../Android-Interview-Demo-03)
+   - To build an APK locally:
+     ```bash
+     cd Android-Interview-Demo-03
+     ./gradlew assembleDebug
+     ```
+     The generated APK will be at `Android-Interview-Demo-03/app/build/outputs/apk/debug/app-debug.apk`.
+
+2. **AndroidExample (`Android Interview Demo - Search & Detail`)**:
    - Source code: [`../AndroidExample`](../AndroidExample)
    - To build an APK locally:
      ```bash
@@ -55,7 +64,7 @@ The following repositories currently do not have pre-built APK releases publishe
      ```
      The generated APK will be at `AndroidExample/app/build/outputs/apk/debug/app-debug.apk`.
 
-2. **MVVM-Retrofit-Kotlin-Example**:
+3. **MVVM-Retrofit-Kotlin-Example**:
    - Source code: [`../MVVM-Retrofit-Kotlin-Example`](../MVVM-Retrofit-Kotlin-Example)
    - To build an APK locally:
      ```bash

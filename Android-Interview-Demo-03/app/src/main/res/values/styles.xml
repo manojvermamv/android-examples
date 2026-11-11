@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TransparentToolbar" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:elevation">0dp</item>
+        <item name="liftOnScrollColor">@android:color/transparent</item>
+        <item name="contentScrim">@android:color/transparent</item>
+        <item name="statusBarScrim">@android:color/transparent</item>
+    </style>
+
+    <style name="CustomDialogTheme" parent="Theme.Material3.Light.Dialog">
+        <item name="android:windowBackground">@drawable/bg_rounded_medium</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="RoundedImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+</resources>
