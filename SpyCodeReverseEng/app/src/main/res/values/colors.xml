@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorOnBackground">#FAFAFA</color>
+    <color name="colorOnError">#810000</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="colorOnSurface">#e74c3c</color>
+    <color name="colorPrimaryDarkVariant">#3E3E3E</color>
+    <color name="colorPrimaryVariant">#e74c3c</color>
+    <color name="colorSecondaryVariant">#F6813E</color>
+    <color name="colorSurface">#FAFAFA</color>
+    <!--<color name="colorControlActivated">#424242</color>-->
+    <color name="colorControlActivated">#e74c3c</color>
+
+    <color name="colorAccent">#e74c3c</color>
+    <color name="colorPrimary">#0e4da4</color>
+    <color name="colorPrimaryDark">@color/colorAccent</color>
+    <!--    <color name="colorPrimaryDark">@color/grey_3</color>-->
+    <color name="colorPrimaryLight">#ededed</color>
+
+    <color name="colorAccentDark">#ffc15f</color>
+    <color name="colorAccentDark25">#40FFC15F</color>
+    <color name="colorAccentDark50">#80FFC15F</color>
+    <color name="colorAccentDark70">#BFFFC15F</color>
+
+    <color name="app_main_background_color">@color/white</color>
+    <color name="app_main_indicator_color">#ffc62828</color>
+    <color name="app_main_footer_color">#fedb41</color>
+    <color name="app_main_nav_gray">#2D2D2D</color>
+    <color name="dialog_header_color">#fedb41</color>
+
+    <color name="app_main_title_color">#ff000000</color>
+    <color name="app_main_sub_title_color">#ff999999</color>
+    <color name="app_main_text_content_color">#ffaaaaaa</color>
+    <color name="app_main_text_content_secondary_color">#ffbbbbbb</color>
+
+    <color name="app_ripple_color_dark">#80333333</color>
+    <color name="app_ripple_color_light">#E8E8E8</color>
+
+
+    <color name="black_shade_1">#0e2433</color>
+    <color name="black_shade_2">#1C4966</color>
+    <color name="black_shade_3">#22252D</color>
+    <color name="gray">#797878</color>
+    <color name="yellow">#ffa500</color>
+    <color name="dark_blue_shade">#0D2162</color>
+    <color name="dark_blue_shade_2">#17388E</color>
+    <color name="light_blue_shade">#12B2E6</color>
+
+
+    <color name="fontcolordark">#000000</color>
+    <color name="fontcolorlight">#181818</color>
+    <color name="fontcolordarktwo">#181818</color>
+    <color name="fontcoloreditext">@color/black</color>
+    <color name="fontcoloreditexthint">@color/black_overlay</color>
+    <color name="fontcolorsearchtext">@color/black</color>
+    <color name="fontcolorsearchtexthint">@color/overlay_dark_60</color>
+    <color name="fontcolortextviewlight">@color/grey_300</color>
+    <color name="fontcolortextview">@color/black</color>
+    <color name="fontcolorbutton">@color/black</color>
+
+    <color name="tabtextcolor">@color/black_overlay</color>
+    <color name="tabtextcolorselected">@color/black</color>
+    <color name="tabindicatorcolor">@color/overlay_dark_10</color>
+
+    <color name="fontcolordatepicker">@color/black</color>
+    <color name="radiobuttontint">@color/black_overlay</color>
+    <color name="fontcolorradiotext">@color/black_overlay</color>
+    <color name="fontcolortextviewgray">@color/grey_600</color>
+    <color name="fontcolorspinner">#000000</color>
+    <color name="editextbackcolor">#ffffff</color>
+    <color name="textviewbackcolor">#ffffff</color>
+
+    <!--action bar colors-->
+    <color name="fontcoloractionbar">@color/white</color>
+    <color name="actionbarimagetintcolor">@color/white</color>
+    <color name="backcoloractionbar">@color/colorAccent</color>
+
+    <!--drawer bar colors-->
+    <color name="drawer_divider_color">#66111214</color>
+    <color name="drawer_back_darkcolor">#111214</color>
+    <color name="drawer_back_lightcolor">#ffffff</color>
+    <color name="drawer_fontcolortv">#000000</color>
+    <color name="drawer_imagetintcolor">#828282</color>
+
+    <!--navigation view colors-->
+    <color name="nav_menu_back">@color/white</color>
+    <color name="fontcolornavmenu">@color/black</color>
+    <color name="imagetintcolornavmenu">@color/black</color>
+
+    <!--cardbackground-->
+    <color name="cardbackcolor">@color/white</color>
+    <color name="cardfontcolortextview">@color/black</color>
+    <color name="cardcolorbottomnav">@color/colorAccent</color>
+
+    <color name="ed_highlight_color">#1FE74C3C</color>
+    <color name="ed_font_color">@color/white</color>
+    <color name="ed_font_color_hint">@color/white</color>
+    <color name="ed_drawable_tint">@color/colorAccent</color>
+
+    <color name="buttonfontcolor_enabled">#FFFFFF</color>
+    <color name="buttonfontcolor_disabled">@color/grey_600</color>
+    <color name="buttonimagetintcolor">#c94c4c</color>
+    <color name="buttonbackgroundtintcolor">@color/colorAccent</color>
+
+    <color name="imagetintcolor">@color/white</color>
+    <color name="imagetintcolor_grey">@color/grey_500</color>
+
+    <color name="divider">#999999</color>
+    <!--<color name="dividercolor">#80CCCCCC</color>-->
+    <color name="dividercolor">#1F000000</color>
+
+    <color name="light_gray">#d3d3d3</color>
+    <color name="black_overlay">@color/overlay_dark_40</color>
+    <color name="white_overlay">@color/overlay_light_40</color>
+    <color name="transparent_75">#BF000000</color>
+    <color name="transparent_50">#80000000</color>
+    <color name="transparent_25">#40000000</color>
+    <color name="transparent_32">#52000000</color>
+    <color name="transparent_38">#7A000000</color>
+
+    <color name="c_black">#000000</color>
+    <color name="c_gray1">#969696</color>
+    <color name="c_blue_dark">#132752</color>
+    <color name="c_gray2">#999999</color>
+    <color name="c_green">#0b892e</color>
+    <color name="c_red">#ed1b24</color>
+    <color name="c_blue">#1b4b97</color>
+    <color name="c_orange">#a37128</color>
+    <color name="c_white">@color/grey_3</color>
+    <!--<color name="c_white">#e9f1fb</color>-->
+    <color name="c_white_dark">#B7BBC1</color>
+
+    <color name="username0">#e21400</color>
+    <color name="username1">#91580f</color>
+    <color name="username2">#f8a700</color>
+    <color name="username3">#f78b00</color>
+    <color name="username4">#58dc00</color>
+    <color name="username5">#287b00</color>
+    <color name="username6">#a8f07a</color>
+    <color name="username7">#4ae8c4</color>
+    <color name="username8">#3b88eb</color>
+    <color name="username9">#3824aa</color>
+    <color name="username10">#a700ff</color>
+    <color name="username11">#d300e7</color>
+
+    <color name="overlay_dark_5">#0C000000</color>
+    <color name="overlay_dark_10">#1A000000</color>
+    <color name="overlay_dark_20">#33000000</color>
+    <color name="overlay_dark_30">#4D000000</color>
+    <color name="overlay_dark_40">#66000000</color>
+    <color name="overlay_dark_50">#80000000</color>
+    <color name="overlay_dark_60">#99000000</color>
+    <color name="overlay_dark_70">#B3000000</color>
+    <color name="overlay_dark_80">#CC000000</color>
+    <color name="overlay_dark_90">#E6000000</color>
+
+    <color name="overlay_light_10">#1AFFFFFF</color>
+    <color name="overlay_light_20">#33FFFFFF</color>
+    <color name="overlay_light_30">#4DFFFFFF</color>
+    <color name="overlay_light_40">#66FFFFFF</color>
+    <color name="overlay_light_50">#8FFFFFF0</color>
+    <color name="overlay_light_60">#99FFFFFF</color>
+    <color name="overlay_light_70">#B3FFFFFF</color>
+    <color name="overlay_light_80">#CCFFFFFF</color>
+    <color name="overlay_light_90">#E6FFFFFF</color>
+
+    <color name="grey_3">#f7f7f7</color>
+    <color name="grey_5">#f2f2f2</color>
+    <color name="grey_10">#e6e6e6</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="grey_40">#999999</color>
+    <color name="grey_60">#666666</color>
+    <color name="grey_80">#37474F</color>
+    <color name="grey_90">#263238</color>
+    <color name="grey_95">#1a1a1a</color>
+    <color name="grey_100_">#0d0d0d</color>
+
+</resources>

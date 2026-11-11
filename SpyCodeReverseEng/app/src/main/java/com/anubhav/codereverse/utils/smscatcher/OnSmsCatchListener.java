@@ -1,0 +1,5 @@
+package com.anubhav.codereverse.utils.smscatcher;
+
+public interface OnSmsCatchListener<T> {
+    void onSmsCatch(String message, String senderNumber, int receivedInSimSlot, String receivedInCarrierName, String receivedInNumber);
+}

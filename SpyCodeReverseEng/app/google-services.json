@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "587682655831",
+    "firebase_url": "https://codereverse-1b96d-default-rtdb.firebaseio.com",
+    "project_id": "codereverse-1b96d",
+    "storage_bucket": "codereverse-1b96d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587682655831:android:c26888a782a7eb3dc37d12",
+        "android_client_info": {
+          "package_name": "com.anubhav.codereverse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587682655831-im44cke3ns2592gksutlbeqjh6f1bjmo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2u2_zUR4g04aq7M3Zh6jKhq9STtbsjHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587682655831-im44cke3ns2592gksutlbeqjh6f1bjmo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

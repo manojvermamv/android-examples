@@ -12,6 +12,7 @@ This folder contains pre-built APK releases downloaded from the respective GitHu
 | **Android Interview Demo 02 (Audio Recorder)** | [`android-interview-demo-02-debug.apk`](./android-interview-demo-02-debug.apk) | `v1.0` | Debug | ~5.58 MB | `6446246B8279DF72B0D8FA0007C766F7F8FE7937066666131C27A93F866767B9` |
 | **Music Player** | [`music-player-v1.0.apk`](./music-player-v1.0.apk) | `v1.0` | Release | ~11.52 MB | `6F32BC3F34EA75301927B736E7A62E7ABDFB9D9455ACA56F24AB458070932F91` |
 | **DevTools** | [`devtools-debug.apk`](./devtools-debug.apk) | `v1.0` | Debug | ~8.11 MB | `3C3F82D0F7C654415471E0D020CE57EC2F02026825CCDF2692993C5F6BBA730B` |
+| **SpyCodeReverseEng** | [`spycode-reverse-eng-release-v1.apk`](./spycode-reverse-eng-release-v1.apk) | `v1.0` | Release | ~25.54 MB | `072178AA18549FDA65CEDF53F29835E3399822010B54BB75A1C18C6FEB1EDCA4` |
 
 ---
 
@@ -47,6 +48,13 @@ This folder contains pre-built APK releases downloaded from the respective GitHu
 * **Application ID / Package:** `com.anubhav.devtools`
 * **Description:** Developer utilities app providing an interactive Kotlin Playground with mobile-optimized WebView, DOM element snapshot capture, contact inspector, and foreground background service.
 * **Source Folder:** [`../DevTools`](../DevTools)
+
+### 5. SpyCodeReverseEng
+* **File:** `spycode-reverse-eng-release-v1.apk`
+* **Version:** 1.0 (versionCode: 1)
+* **Application ID / Package:** `com.anubhav.codereverse`
+* **Description:** Reverse-engineered Android security research case study examining C2 communication, socket telemetry, SMS interception, and stealth service persistence. Preserved for static and dynamic security auditing.
+* **Source Folder:** [`../SpyCodeReverseEng`](../SpyCodeReverseEng)
 
 ---
 

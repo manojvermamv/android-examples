@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="design_fab_image_size" tools:override="true">56dp</dimen>
+    <dimen name="appbar_big_height">350dp</dimen>
+    <dimen name="actionbar_height">56dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">180dp</dimen>
+
+    <dimen name="square_corner_radius">18dp</dimen>
+    <dimen name="default_corner_radius">18dp</dimen>
+    <dimen name="fab_corner_radius">25dp</dimen>
+    <dimen name="dialog_fragment_margin">0dp</dimen>
+    <dimen name="bs_margin">0dp</dimen>
+    <dimen name="bs_margin_start">0dp</dimen>
+    <dimen name="bs_margin_end">0dp</dimen>
+
+    <dimen name="dialog_translation_img">125dp</dimen>
+    <dimen name="dialog_translation_z">10dp</dimen>
+    <dimen name="dialog_translation_plus">56dp</dimen>
+    <dimen name="dialog_translation_minus">-56dp</dimen>
+    <dimen name="dialog_width">290dp</dimen>
+
+    <dimen name="padding0">0dp</dimen>
+    <dimen name="padding1">1dp</dimen>
+    <dimen name="padding2">2dp</dimen>
+    <dimen name="padding3">3dp</dimen>
+    <dimen name="padding4">4dp</dimen>
+    <dimen name="padding5">5dp</dimen>
+    <dimen name="padding6">6dp</dimen>
+    <dimen name="padding7">7dp</dimen>
+    <dimen name="padding8">8dp</dimen>
+    <dimen name="padding10">10dp</dimen>
+    <dimen name="padding12">12dp</dimen>
+    <dimen name="padding13">13dp</dimen>
+    <dimen name="padding14">14dp</dimen>
+    <dimen name="padding15">15dp</dimen>
+    <dimen name="padding16">16dp</dimen>
+    <dimen name="padding17">17dp</dimen>
+    <dimen name="padding18">18dp</dimen>
+    <dimen name="padding20">20dp</dimen>
+    <dimen name="padding24">24dp</dimen>
+    <dimen name="padding25">25dp</dimen>
+    <dimen name="padding26">26dp</dimen>
+    <dimen name="padding28">28dp</dimen>
+    <dimen name="padding30">30dp</dimen>
+    <dimen name="padding32">32dp</dimen>
+    <dimen name="padding35">35dp</dimen>
+    <dimen name="padding36">36dp</dimen>
+    <dimen name="padding37">37dp</dimen>
+    <dimen name="padding38">38dp</dimen>
+    <dimen name="padding40">40dp</dimen>
+    <dimen name="padding42">42dp</dimen>
+    <dimen name="padding45">45dp</dimen>
+    <dimen name="padding48">48dp</dimen>
+    <dimen name="padding50">50dp</dimen>
+    <dimen name="padding56">56dp</dimen>
+    <dimen name="padding60">60dp</dimen>
+    <dimen name="padding68">68dp</dimen>
+    <dimen name="padding70">70dp</dimen>
+    <dimen name="padding80">80dp</dimen>
+    <dimen name="padding85">85dp</dimen>
+    <dimen name="padding90">90dp</dimen>
+    <dimen name="padding95">95dp</dimen>
+    <dimen name="padding100">100dp</dimen>
+    <dimen name="padding110">110dp</dimen>
+    <dimen name="padding120">120dp</dimen>
+    <dimen name="padding125">150dp</dimen>
+    <dimen name="padding130">130dp</dimen>
+    <dimen name="padding132">132dp</dimen>
+    <dimen name="padding135">135dp</dimen>
+    <dimen name="padding160">160dp</dimen>
+    <dimen name="padding170">170dp</dimen>
+    <dimen name="padding180">180dp</dimen>
+    <dimen name="padding190">190dp</dimen>
+    <dimen name="padding200">200dp</dimen>
+    <dimen name="padding210">210dp</dimen>
+    <dimen name="padding220">220dp</dimen>
+    <dimen name="padding240">240dp</dimen>
+    <dimen name="padding250">250dp</dimen>
+    <dimen name="padding260">260dp</dimen>
+    <dimen name="padding280">280dp</dimen>
+    <dimen name="padding300">300dp</dimen>
+
+    <dimen name="options_text_size">15sp</dimen>
+    <dimen name="title_text_size">16sp</dimen>
+
+    <dimen name="font_ten">10sp</dimen>
+    <dimen name="font_eleven">11sp</dimen>
+    <dimen name="font_twelve">12sp</dimen>
+    <dimen name="font_thirteen">13sp</dimen>
+    <dimen name="font_fourteen">14sp</dimen>
+    <dimen name="font_fifteen">15sp</dimen>
+    <dimen name="font_sixteen">16sp</dimen>
+    <dimen name="font_seventeen">17sp</dimen>
+    <dimen name="font_eighteen">18sp</dimen>
+    <dimen name="font_twenty">20sp</dimen>
+    <dimen name="font_twenty_two">22sp</dimen>
+    <dimen name="font_twenty_six">26sp</dimen>
+    <dimen name="font_twenty_seven">27sp</dimen>
+
+</resources>

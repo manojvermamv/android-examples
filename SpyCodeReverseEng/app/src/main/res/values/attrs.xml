@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundShadowLayout">
+        <attr name="titleText" format="string" localization="suggested" />
+        <attr name="corner_radius" format="dimension" />
+        <attr name="background_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ChangeOutlineRadius">
+        <attr name="startRadius" format="dimension" />
+        <attr name="endRadius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ClickableRelativeLayout">
+        <attr name="hasChildrenTouchEnabled" format="boolean" />
+    </declare-styleable>
+
+    <!--Voice Player for Recorded mp3 playing -->
+    <declare-styleable name="VoicePlayerView">
+        <attr name="viewBackground" format="color" />
+        <attr name="playPauseIconColor" format="color" />
+        <attr name="playPauseBackgroundColor" format="color" />
+        <attr name="shareBackgroundColor" format="color" />
+        <attr name="seekBarProgressColor" format="color" />
+        <attr name="seekBarThumbColor" format="color" />
+        <attr name="progressTimeColor" format="color" />
+        <attr name="showShareButton" format="boolean" />
+        <attr name="showTiming" format="boolean" />
+        <attr name="viewCornerRadius" format="float" />
+        <attr name="playPauseCornerRadius" format="float" />
+        <attr name="shareCornerRadius" format="float" />
+        <attr name="shareText" format="string" />
+        <attr name="enableVisualizer" format="boolean" />
+        <attr name="timingBackgroundColor" format="color" />
+        <attr name="visualizationPlayedColor" format="color" />
+        <attr name="visualizationNotPlayedColor" format="color" />
+        <attr name="playProgressbarColor" format="color" />
+
+        <attr name="headsetBackgroundColor" format="color" />
+        <attr name="headsetCornerRadius" format="float" />
+        <attr name="headsetDirection">
+            <enum name="right" value="0" />
+            <enum name="left" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!-- Audio Waves -->
+    <declare-styleable name="AudioWave">
+        <attr name="waveThickness" format="float" />
+        <attr name="waveColor" format="color" />
+        <attr name="colorGradient" format="boolean" />
+        <attr name="startColor" format="color" />
+        <attr name="endColor" format="color" />
+    </declare-styleable>
+
+    <!--Ripple Background START -->
+    <declare-styleable name="MaterialRippleLayout">
+        <attr name="mrl_rippleColor" format="color" localization="suggested" />
+        <attr name="mrl_rippleDimension" format="dimension" localization="suggested" />
+        <attr name="mrl_rippleOverlay" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleAlpha" format="float" localization="suggested" />
+        <attr name="mrl_rippleDuration" format="integer" localization="suggested" />
+        <attr name="mrl_rippleFadeDuration" format="integer" localization="suggested" />
+        <attr name="mrl_rippleHover" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleBackground" format="color" localization="suggested" />
+        <attr name="mrl_rippleDelayClick" format="boolean" localization="suggested" />
+        <attr name="mrl_ripplePersistent" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleInAdapter" format="boolean" localization="suggested" />
+        <attr name="mrl_rippleRoundedCorners" format="dimension" localization="suggested" />
+    </declare-styleable>
+    <!--Ripple Background END -->
+
+</resources>

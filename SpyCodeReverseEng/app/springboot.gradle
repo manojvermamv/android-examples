@@ -1,0 +1,21 @@
+repositories {
+    gradlePluginPortal()
+    mavenCentral()
+}
+
+group = 'com.anubhav.codereverse.server'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+dependencies {
+    implementation platform('org.springframework.boot:spring-boot-dependencies:2.7.0')
+
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.7.0'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-tomcat', version: '2.7.0'
+
+    implementation group: 'org.springframework.boot', name: 'spring-boot-gradle-plugin', version: '2.7.0'
+}

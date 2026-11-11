@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:map="http://schemas.android.com/apk/res-aut"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_root">
+
+    <data></data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_main_background_color">
+
+        <include
+            android:id="@+id/lay_actionbar"
+            layout="@layout/include_actionbar_normal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/action_bar_height"
+            android:layout_alignParentTop="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/lay_actionbar">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/inputIpAddress"
+                style="@style/Custom.EditTextNormal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="@dimen/padding10"
+                android:drawableEnd="@drawable/ic_round_search_24"
+                android:hint="Enter IP Address"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/inputIpAddress"
+                android:layout_marginStart="@dimen/padding10"
+                android:layout_marginTop="@dimen/padding10"
+                android:layout_marginEnd="@dimen/padding10">
+
+                <TextView
+                    android:id="@+id/display_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:background="#33000000"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:paddingStart="@dimen/padding14"
+                    android:paddingTop="@dimen/padding12"
+                    android:paddingEnd="@dimen/padding12"
+                    android:paddingBottom="@dimen/padding12"
+                    android:text="Geolocation data"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/font_sixteen"
+                    android:visibility="invisible" />
+
+                <LinearLayout
+                    android:id="@+id/lay_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/display_title"
+                    android:orientation="vertical"
+                    android:visibility="invisible">
+
+                    <include
+                        android:id="@+id/lay_include_ip"
+                        layout="@layout/include_ipfinder_data"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/padding2" />
+
+                    <include
+                        android:id="@+id/lay_include_country"
+                        layout="@layout/include_ipfinder_data"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/padding2" />
+
+                    <include
+                        android:id="@+id/lay_include_region"
+                        layout="@layout/include_ipfinder_data"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/padding2" />
+
+                    <include
+                        android:id="@+id/lay_include_city"
+                        layout="@layout/include_ipfinder_data"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/padding2" />
+
+                    <include
+                        android:id="@+id/lay_include_location"
+                        layout="@layout/include_ipfinder_data"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/padding2" />
+
+                    <include
+                        android:id="@+id/lay_include_org"
+                        layout="@layout/include_ipfinder_data"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/padding2" />
+
+                    <include
+                        android:id="@+id/lay_include_postol"
+                        layout="@layout/include_ipfinder_data"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/padding2" />
+
+                    <include
+                        android:id="@+id/lay_include_timezone"
+                        layout="@layout/include_ipfinder_data"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/padding2" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/display_title2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lay_data"
+                    android:layout_marginTop="@dimen/padding10"
+                    android:background="#33000000"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:paddingStart="@dimen/padding14"
+                    android:paddingTop="@dimen/padding12"
+                    android:paddingEnd="@dimen/padding12"
+                    android:paddingBottom="@dimen/padding12"
+                    android:text="Geolocation map"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/font_sixteen"
+                    android:visibility="invisible" />
+
+                <com.google.android.gms.maps.MapView
+                    android:id="@+id/mapView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/display_title2"
+                    android:layout_marginBottom="@dimen/padding10"
+                    android:visibility="invisible" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</layout>

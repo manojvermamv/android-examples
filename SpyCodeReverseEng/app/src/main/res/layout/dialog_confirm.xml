@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_view"
+    android:layout_width="@dimen/dialog_width"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/back_cardview"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <RelativeLayout
+        android:id="@+id/title_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_bottomsheet"
+        android:backgroundTint="@color/colorAccent">
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="@dimen/padding10"
+            android:text="Remove"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_seventeen" />
+
+        <ImageView
+            android:id="@+id/img_close"
+            android:layout_width="@dimen/padding25"
+            android:layout_height="@dimen/padding25"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/padding8"
+            android:layout_marginEnd="@dimen/padding8"
+            android:padding="@dimen/padding4"
+            android:src="@mipmap/exit_login_close"
+            app:tint="@color/white" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/lay_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dialog_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding4"
+            android:layout_marginBottom="@dimen/padding4"
+            android:gravity="center"
+            android:maxLines="5"
+            android:overScrollMode="never"
+            android:padding="@dimen/padding12"
+            android:text="Do you want to continue unfollow this user. Your chat and shared content are deleted?"
+            android:textColor="@color/black"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/font_fifteen" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_confirm"
+            style="@style/ButtonStyle"
+            android:layout_width="@dimen/padding160"
+            android:layout_height="@dimen/padding35"
+            android:layout_below="@+id/dialog_desc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="@dimen/padding10"
+            android:layout_marginTop="@dimen/padding10"
+            android:layout_marginEnd="@dimen/padding10"
+            android:layout_marginBottom="@dimen/padding10"
+            android:text="@string/ok" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

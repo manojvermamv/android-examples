@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:map="http://schemas.android.com/apk/res-aut"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_root">
+
+    <data></data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_main_background_color">
+
+        <include
+            android:id="@+id/lay_actionbar"
+            layout="@layout/include_actionbar_normal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/action_bar_height"
+            android:layout_alignParentTop="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/lay_actionbar">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="@dimen/padding10"
+                android:layout_marginTop="@dimen/padding10"
+                android:layout_marginEnd="@dimen/padding10">
+
+                <TextView
+                    android:id="@+id/service_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:background="#33000000"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:paddingStart="@dimen/padding14"
+                    android:paddingTop="@dimen/padding12"
+                    android:paddingEnd="@dimen/padding12"
+                    android:paddingBottom="@dimen/padding12"
+                    android:text="Select service"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/font_sixteen"
+                    android:visibility="visible" />
+
+                <HorizontalScrollView
+                    android:id="@+id/lay_service"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/service_title"
+                    android:layout_marginTop="@dimen/padding10"
+                    android:overScrollMode="never"
+                    android:scrollbars="none">
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rbTextbelt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/padding6"
+                            android:text="Textbelt" />
+
+                        <RadioButton
+                            android:id="@+id/rbToFactor"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/padding6"
+                            android:text="2Factor" />
+
+                        <RadioButton
+                            android:id="@+id/rbWayToSms"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/padding6"
+                            android:text="Way2Sms" />
+
+                        <RadioButton
+                            android:id="@+id/rbFastToSms"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/padding6"
+                            android:text="Fast2Sms" />
+
+                        <RadioButton
+                            android:id="@+id/rbBlacktelIO"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/padding6"
+                            android:text="Blacktel.io" />
+
+                    </RadioGroup>
+
+                </HorizontalScrollView>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/inputUsername"
+                    style="@style/Custom.EditTextNormal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lay_service"
+                    android:layout_marginTop="@dimen/padding20"
+                    android:layout_marginBottom="@dimen/padding12"
+                    android:drawableEnd="@drawable/ic_outline_info_24"
+                    android:hint="Enter Email or Username"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:visibility="gone" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/inputPassword"
+                    style="@style/Custom.EditTextNormal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/inputUsername"
+                    android:layout_marginBottom="@dimen/padding12"
+                    android:drawableEnd="@drawable/ic_outline_info_24"
+                    android:hint="Enter Password"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:visibility="gone" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/inputToken"
+                    style="@style/Custom.EditTextNormal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/inputPassword"
+                    android:layout_marginBottom="@dimen/padding12"
+                    android:drawableEnd="@drawable/ic_outline_info_24"
+                    android:hint="Enter Token"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btnSendSms"
+                android:layout_width="@dimen/padding48"
+                android:layout_height="@dimen/padding48"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="@dimen/padding18"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardBackgroundColor="@color/colorAccent"
+                app:cardCornerRadius="@dimen/padding10"
+                app:cardElevation="@dimen/padding1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/padding12"
+                    android:src="@drawable/ic_round_send_24" />
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</layout>

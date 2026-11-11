@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- OnBoarding START -->
+    <style name="SliderRootLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingStart">@dimen/padding0</item>
+        <item name="android:paddingEnd">@dimen/padding0</item>
+        <item name="android:paddingBottom">24dp</item>
+    </style>
+
+    <style name="SliderTitle">
+        <item name="android:id">@id/title</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:gravity">bottom|center_horizontal</item>
+        <item name="android:paddingStart">@dimen/padding30</item>
+        <item name="android:paddingEnd">@dimen/padding30</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_twenty</item>
+        <item name="android:fontFamily">@font/app_fonts_family</item>
+    </style>
+
+    <style name="SliderDescription">
+        <item name="android:id">@id/description</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:paddingStart">@dimen/padding30</item>
+        <item name="android:paddingEnd">@dimen/padding30</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_sixteen</item>
+        <item name="android:fontFamily">@font/app_fonts_family</item>
+    </style>
+
+    <style name="SliderImage">
+        <item name="android:id">@id/image</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">5</item>
+        <item name="android:layout_marginTop">@dimen/padding16</item>
+        <item name="android:layout_marginBottom">@dimen/padding16</item>
+        <item name="android:scaleType">centerInside</item>
+<!--        <item name="lottie_autoPlay">true</item>-->
+<!--        <item name="lottie_loop">true</item>-->
+    </style>
+    <!-- OnBoarding END -->
+
+    <style name="SmallAttachmentLayout">
+        <item name="android:layout_width">@dimen/padding17</item>
+        <item name="android:layout_height">@dimen/padding17</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginEnd">@dimen/padding2</item>
+        <item name="android:visibility">visible</item>
+        <item name="tint">@color/grey_600</item>
+    </style>
+
+    <style name="AttachmentLinearLayout">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">?android:selectableItemBackgroundBorderless</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="ActualAttachmentLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding14</item>
+        <item name="tint">@color/white</item>
+    </style>
+
+    <style name="AttachmentText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/app_fonts_family</item>
+        <item name="android:paddingTop">@dimen/padding3</item>
+        <item name="android:textSize">@dimen/font_twelve</item>
+    </style>
+
+    <item name="description" type="id" />
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_root">
+
+    <data></data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_bottomsheet"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding16">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:text="Generate masking url"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_twenty"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_close"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_alignParentEnd="true"
+                android:padding="2dp"
+                android:src="@mipmap/ic_close_bs" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/padding30"
+            android:paddingTop="@dimen/padding20"
+            android:paddingEnd="@dimen/padding30"
+            android:paddingBottom="@dimen/padding20">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/padding12"
+                android:text="URL/Link here"
+                android:textSize="@dimen/font_fourteen" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/inputOriginalLink"
+                style="@style/Custom.EditTextNormal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_outline_info_24"
+                android:hint="Ex: https://example.com/long/"
+                android:imeOptions="actionNext"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/padding12"
+                android:layout_marginTop="@dimen/padding18"
+                android:text="Domain to mask the URL"
+                android:textSize="@dimen/font_fourteen" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/inputMaskLink"
+                style="@style/Custom.EditTextNormal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_outline_info_24"
+                android:hint="Ex: http://instagram.com"
+                android:imeOptions="actionNext"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/padding12"
+                android:layout_marginTop="@dimen/padding18"
+                android:text="Social engineering words"
+                android:textSize="@dimen/font_fourteen" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/inputWords"
+                style="@style/Custom.EditTextNormal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_outline_info_24"
+                android:hint="Ex: free-insta-followers"
+                android:inputType="text" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSubmit"
+                style="@style/ButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/padding25"
+                android:layout_marginBottom="@dimen/padding10"
+                android:paddingStart="@dimen/padding20"
+                android:paddingEnd="@dimen/padding20"
+                android:text="Generate" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>

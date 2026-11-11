@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data></data>
+
+    <RelativeLayout
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_main_background_color"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!--            <com.airbnb.lottie.LottieAnimationView-->
+            <!--                android:id="@+id/not_found_animation"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="@dimen/padding300"-->
+            <!--                android:adjustViewBounds="true"-->
+            <!--                android:gravity="center"-->
+            <!--                app:lottie_autoPlay="true"-->
+            <!--                app:lottie_loop="true"-->
+            <!--                app:lottie_rawRes="@raw/search_not_found"-->
+            <!--                app:lottie_rawRes="@raw/empty_messages_yet"-->
+            <!--                app:lottie_repeatMode="restart"-->
+            <!--                app:lottie_speed="1" />-->
+
+            <ImageView
+                android:id="@+id/not_found_animation"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding260"
+                android:alpha="0.70"
+                android:gravity="center"
+                android:padding="@dimen/padding18"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/no_results_emoji" />
+
+            <TextView
+                android:id="@+id/not_found_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="@string/no_results_found"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_eighteen" />
+
+            <TextView
+                android:id="@+id/not_found_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/no_results_found_desc"
+                android:textColor="@color/grey_600"
+                android:textSize="@dimen/font_twelve" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</layout>
