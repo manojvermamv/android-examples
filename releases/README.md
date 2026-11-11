@@ -6,11 +6,11 @@ This folder contains pre-built APK releases downloaded from the respective GitHu
 
 ## 📦 Summary of Available APK Releases
 
-| Project / Application | File Name | Version | Build Type | Size | SHA-256 Checksum | Original Repository Release |
-| :--- | :--- | :---: | :---: | :---: | :--- | :--- |
-| **Android Interview Demo 01** | [`android-interview-demo-01-debug.apk`](./android-interview-demo-01-debug.apk) | `v1.0` | Debug | ~6.17 MB | `24D38EC608EE094E7C579D437D92BBE8E7102E8ED4E3352481C611C2452D3FAC` | [GitHub Release v1.0](https://github.com/manojvermamv/Android-Interview-Demo-01/releases/tag/v1.0) |
-| **Android Interview Demo 02 (Audio Recorder)** | [`android-interview-demo-02-debug.apk`](./android-interview-demo-02-debug.apk) | `v1.0` | Debug | ~5.58 MB | `6446246B8279DF72B0D8FA0007C766F7F8FE7937066666131C27A93F866767B9` | [GitHub Release v1.0](https://github.com/manojvermamv/Android-Interview-Demo-02/releases/tag/v1.0) |
-| **Music Player** | [`music-player-v1.0.apk`](./music-player-v1.0.apk) | `v1.0` | Release | ~11.52 MB | `6F32BC3F34EA75301927B736E7A62E7ABDFB9D9455ACA56F24AB458070932F91` | [GitHub Release v1.0](https://github.com/manojvermamv/MusicPlayer/releases/tag/v1.0) |
+| Project / Application | File Name | Version | Build Type | Size | SHA-256 Checksum |
+| :--- | :--- | :---: | :---: | :---: | :--- |
+| **Android Interview Demo 01** | [`android-interview-demo-01-debug.apk`](./android-interview-demo-01-debug.apk) | `v1.0` | Debug | ~6.17 MB | `24D38EC608EE094E7C579D437D92BBE8E7102E8ED4E3352481C611C2452D3FAC` |
+| **Android Interview Demo 02 (Audio Recorder)** | [`android-interview-demo-02-debug.apk`](./android-interview-demo-02-debug.apk) | `v1.0` | Debug | ~5.58 MB | `6446246B8279DF72B0D8FA0007C766F7F8FE7937066666131C27A93F866767B9` |
+| **Music Player** | [`music-player-v1.0.apk`](./music-player-v1.0.apk) | `v1.0` | Release | ~11.52 MB | `6F32BC3F34EA75301927B736E7A62E7ABDFB9D9455ACA56F24AB458070932F91` |
 
 ---
 

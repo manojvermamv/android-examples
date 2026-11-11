@@ -35,23 +35,23 @@ For full release details, checksums, and package names, see [`releases/README.md
 
 ### 1. [Android-Interview-Demo-01](./Android-Interview-Demo-01)
 - **Description:** Demonstrates standard Android interview requirements assessing coding quality, architecture, and maintainability. Implements a clean MVVM structure fetching data from mock/public REST APIs, displaying an item list, and navigating to a detailed item view.
-- **Repository:** [manojvermamv/Android-Interview-Demo-01](https://github.com/manojvermamv/Android-Interview-Demo-01)
+- **Source Directory:** [`Android-Interview-Demo-01`](./Android-Interview-Demo-01)
 
 ### 2. [Android-Interview-Demo-02](./Android-Interview-Demo-02)
 - **Description:** A dedicated audio recording application providing intuitive audio capture, recording review, audio playback controls, and recording file management (rename, delete, play).
-- **Repository:** [manojvermamv/Android-Interview-Demo-02](https://github.com/manojvermamv/Android-Interview-Demo-02)
+- **Source Directory:** [`Android-Interview-Demo-02`](./Android-Interview-Demo-02)
 
 ### 3. [AndroidExample](./AndroidExample)
 - **Description:** An interview demo implementation focusing on item listing, filtering, search, and detail transitions with clean MVVM architecture in Kotlin.
-- **Repository:** [manojvermamv/AndroidExample](https://github.com/manojvermamv/AndroidExample)
+- **Source Directory:** [`AndroidExample`](./AndroidExample)
 
 ### 4. [MusicPlayer](./MusicPlayer)
 - **Description:** A native Android audio player with support for audio playlists, playback controls (play, pause, shuffle, stop), song metadata rendering, and background audio service.
-- **Repository:** [manojvermamv/MusicPlayer](https://github.com/manojvermamv/MusicPlayer)
+- **Source Directory:** [`MusicPlayer`](./MusicPlayer)
 
 ### 5. [MVVM-Retrofit-Kotlin-Example](./MVVM-Retrofit-Kotlin-Example)
 - **Description:** A comprehensive architectural tutorial project demonstrating step-by-step implementation of MVVM with Retrofit 2, Kotlin Coroutines, LiveData, ViewModel, and Repository Pattern in Android.
-- **Repository:** [manojvermamv/MVVM-Retrofit-Kotlin-Example](https://github.com/manojvermamv/MVVM-Retrofit-Kotlin-Example)
+- **Source Directory:** [`MVVM-Retrofit-Kotlin-Example`](./MVVM-Retrofit-Kotlin-Example)
 
 ---
 
